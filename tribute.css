@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containner{
+  background-color: antiquewhite;
+height: 190vh;
+border: 10px solid black;
+
+}
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+
+}
+.top_section{
+  display: flex;
+  justify-content: space-between;
+ margin-right: 40px;
+ align-items: flex-end;
+}
+.img-container,img{
+  width: 300px;
+  height: 230px;
+  
+}
+.img-container{
+border-radius:60%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.top_section h1{
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  image-rendering: optimizeQuality;
+  height: 30%;
+  border-radius: 20%;
+  text-transform: uppercase;
+  
+}
+.top_section h3{
+  margin-left:700px ;
+  align-items: flex-end;
+  text-align: justify;
+  font-size: larger;
+  height: fit-content;
+ 
+}
+.about-me{
+margin-top: 50px;
+font-size: larger;
+}
+.about-me h1{
+  font-size: 80px;
+  font-weight: 450;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  color: rgb(255, 0, 38);
+
+}
+.biograph h2{
+  font-size: 70px;
+  font-weight: 450;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  color:rgb(178, 9, 194);
+  font-style: inherit;
+  text-decoration: underline;
+  text-align: justify;
+  border: 5rem;
+ 
+  
+ 
+}
+.about-me p{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 2.1px;
+ margin-left: 120px;
+}
+.biograph{
+  margin-top: 50px;
+
+}
+.biograph li{
+  margin-left: 150px;
+  margin-bottom: 15px;
+  font-size: larger;
+  font-style: oblique;
+  color: rgb(36, 6, 232);
+
+}

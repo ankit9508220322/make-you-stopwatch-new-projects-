@@ -1,0 +1,192 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: #2222;
+}
+#b{
+  font-weight: 800px;
+  font-size: x-large;
+}
+#b:hover{
+  color: rgb(172, 8, 19);
+  font-size: x-large;
+  font-weight: 500;
+}
+#add{
+  
+  color: rgb(180, 6, 58);
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+/* #add:hover{
+  color: rgb(201, 43, 11);
+  font-size: x-large;
+  border-radius: 40px;
+  background-color: antiquewhite;
+ 
+} */
+ /* #gg{
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  font-weight: 600;
+  font-size: x-large;
+ } */
+.card{
+  height: 950px;
+  width: 570px;
+  /*background-color: rgb(60, 143, 128);
+  */background-image: url(11machin.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  margin: 10px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+  border-radius: 100px;
+  border: 3px;
+  text-shadow: #17d2b6;
+  text-shadow: 3rem;
+ 
+}
+.search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.search input{
+  border: 0;
+  outline: 0;
+  background: #17d2b6;
+  color:black;
+  font-style: italic;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  font-size: 18px;
+
+}
+.search button{
+  bottom: 0;
+  outline: 0;
+  background: #16a34cae;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+ 
+}
+.weather icon{
+  width: 150px;
+  margin-top: 30px;
+
+}
+.weather h1{
+  font-size: 80px;
+  font-weight: 500;
+  color: yellow;
+  text-decoration: underline;
+}
+
+.weather h3{
+  font-size: 24px;
+  color: #0ce679;
+  font-style: italic;
+}
+.weather h2{
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+#im{
+  height: 180px;
+  width: 190px;
+}
+#de{
+  border-radius: 50px;
+  height: 160px;
+  width: 160px;
+ 
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+
+}
+
+.if{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.humidity,.wind{
+  font-size: 28px;
+  margin-top:-6px ;
+}
+
+/* .col{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  
+  
+
+}
+.col i{
+  width: 40px;
+  height: 30px;
+  margin-right: 30px;
+} */
+
+.cloud-style {
+ /*filter: grayscale(80%);
+ */border-radius: 80px;
+ margin-top: 20px;
+ margin-right:30px;
+ 
+}
+.clear-style {
+  border: 2px solid gold;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+.rain-style {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+/*.default-style {
+  opacity: 0.8;
+ }
+
+ @keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}  */
